@@ -20,10 +20,6 @@ playwright/.auth/
 test-results/
 playwright-report/
 
-# Project output & downloaded files
-report/
-resources/output-data/
-resources/download-data/
 
 # Environment variables
 .env
