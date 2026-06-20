@@ -1,0 +1,45 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Pytest cache & reports
+.pytest_cache/
+.cache/
+pytest_cache/
+
+# Playwright
+playwright/.auth/
+test-results/
+playwright-report/
+
+# Project output & downloaded files
+report/
+resources/output-data/
+resources/download-data/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
